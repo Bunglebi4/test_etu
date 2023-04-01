@@ -52,7 +52,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'testsite.urls'
 
-VALIDATE_XML = False
+VALIDATE_WITH_XSD = True
+
+XSD_PATH = "converter/validation/Add_Entrant_List.xsd"
 
 TEMPLATES = [
     {
