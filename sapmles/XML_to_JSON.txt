@@ -1,0 +1,111 @@
+input:
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<PackageData xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IdJwt>1023</IdJwt>
+  <EntityAction>string</EntityAction>
+  <SuccessResultList>
+    <Entrant>
+      <IdObject>7379</IdObject>
+      <Guid>ABCDEFGHIJKLMNO</Guid>
+      <Snils>23338686974</Snils>
+      <IdGender>2269</IdGender>
+      <Birthday>1996-04-21</Birthday>
+      <Birthplace>string</Birthplace>
+      <AvailabilityEduDoc>false</AvailabilityEduDoc>
+      <DateAvailabilityEduDoc>2013-11-06T00:44:37.85</DateAvailabilityEduDoc>
+      <Surname>string</Surname>
+      <Name>string</Name>
+      <IdOksm>2362</IdOksm>
+      <AddressList>
+        <Address>
+          <IsRegistration>false</IsRegistration>
+          <FullAddr>string</FullAddr>
+          <IdRegion>1600</IdRegion>
+          <City>string</City>
+        </Address>
+      </AddressList>
+      <DocumentList>
+        <Document>
+          <Guid>ABCDEFGHIJKLMNOPQR</Guid>
+          <FileHash>string</FileHash>
+          <IdDocumentType>6242</IdDocumentType>
+          <DocName>string</DocName>
+          <IdCheckStatus>2014</IdCheckStatus>
+        </Document>
+        <Document>
+          <Guid>ABCDEFGHIJK</Guid>
+          <FileHash>string</FileHash>
+          <IdDocumentType>1161</IdDocumentType>
+          <DocName>string</DocName>
+          <IdCheckStatus>6821</IdCheckStatus>
+        </Document>
+        <Document>
+          <Guid>ABCDEFGHIJKLMNOP</Guid>
+          <FileHash>string</FileHash>
+          <IdDocumentType>3171</IdDocumentType>
+          <DocName>string</DocName>
+          <IdCheckStatus>4808</IdCheckStatus>
+        </Document>
+      </DocumentList>
+    </Entrant>
+  </SuccessResultList>
+</PackageData>
+
+output:
+{
+  "PackageData": {
+    "@xsi:noNamespaceSchemaLocation": "schema.xsd",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "IdJwt": "1023",
+    "EntityAction": "string",
+    "SuccessResultList": {
+      "Entrant": {
+        "IdObject": "7379",
+        "Guid": "ABCDEFGHIJKLMNO",
+        "Snils": "23338686974",
+        "IdGender": "2269",
+        "Birthday": "1996-04-21",
+        "Birthplace": "string",
+        "AvailabilityEduDoc": "false",
+        "DateAvailabilityEduDoc": "2013-11-06T00:44:37.85",
+        "Surname": "string",
+        "Name": "string",
+        "IdOksm": "2362",
+        "AddressList": {
+          "Address": {
+            "IsRegistration": "false",
+            "FullAddr": "string",
+            "IdRegion": "1600",
+            "City": "string"
+          }
+        },
+        "DocumentList": {
+          "Document": [
+            {
+              "Guid": "ABCDEFGHIJKLMNOPQR",
+              "FileHash": "string",
+              "IdDocumentType": "6242",
+              "DocName": "string",
+              "IdCheckStatus": "2014"
+            },
+            {
+              "Guid": "ABCDEFGHIJK",
+              "FileHash": "string",
+              "IdDocumentType": "1161",
+              "DocName": "string",
+              "IdCheckStatus": "6821"
+            },
+            {
+              "Guid": "ABCDEFGHIJKLMNOP",
+              "FileHash": "string",
+              "IdDocumentType": "3171",
+              "DocName": "string",
+              "IdCheckStatus": "4808"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
