@@ -1,0 +1,52 @@
+{
+  "EntrantChoice": {
+    "AddEntrant": {
+      "Identification": {
+        "IdDocumentType": 3969,
+        "DocName": "string",
+        "DocSeries": "string",
+        "DocNumber": "string",
+        "IssueDate": "2004-05-02",
+        "DocOrganization": "string"
+      },
+      "Snils": 38581917401,
+      "IdGender": 106,
+      "Birthday": "2004-05-01",
+      "Birthplace": "string",
+      "Phone": "string",
+      "Email": "string",
+      "IdOksm": 6592,
+      "FreeEducationReason": {
+        "IdFreeEducationReason": 2707
+      },
+      "AddressList": {
+        "Address": [
+          {
+            "IsRegistration": true,
+            "FullAddr": "string",
+            "IdRegion": 41,
+            "City": "string"
+          },
+          {
+            "IsRegistration": false,
+            "FullAddr": "string",
+            "IdRegion": 445,
+            "City": "string"
+          },
+          {
+            "IsRegistration": 1,
+            "FullAddr": "string",
+            "IdRegion": 8065,
+            "City": "string"
+          },
+          {
+            "IsRegistration": false,
+            "FullAddr": "string",
+            "IdRegion": 4330,
+            "City": "string"
+          }
+        ]
+      }
+    }
+  }
+}

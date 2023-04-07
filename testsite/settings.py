@@ -54,7 +54,7 @@ ROOT_URLCONF = 'testsite.urls'
 
 VALIDATE_WITH_XSD = True
 
-XSD_PATH = "converter/validation/Add_Entrant_List.xsd"
+XSD_PATH = "converter/validation_data/Add_Entrant_List.xsd"
 
 TEMPLATES = [
     {
@@ -86,7 +86,7 @@ DATABASES = {
 }
 
 
-# Password validation
+# Password validation_data
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [

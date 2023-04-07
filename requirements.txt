@@ -2,7 +2,10 @@ asgiref==3.6.0
 defusedxml==0.7.1
 dicttoxml==1.7.16
 Django==4.1.7
+elementpath==4.1.0
+et==0.0.2
 lxml==4.9.2
 sqlparse==0.4.3
 xmljson==0.2.1
+xmlschema==2.2.2
 xmltodict==0.13.0
